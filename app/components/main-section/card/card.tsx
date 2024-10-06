@@ -7,12 +7,9 @@ interface CardProps {
 
 const Card: React.FC<CardProps> = ({ title, description }) => {
     return (
-        <div className="bg-white rounded-lg shadow-lg p-5">
+        <div className="bg-white rounded-lg shadow-lg p-5 border-t border-l border-r border-gray-400 h-[100%]">
             <h3 className="text-xl font-semibold">{title}</h3>
-            <p className="mt-2 text-gray-600">{description}</p>
-            <button className="mt-4 bg-[#F5F5F5] text-gray-800 py-2 px-4 rounded hover:bg-gray-200">
-                Read More
-            </button>
+            <p className="mt-2 text-gray-600 text-start text-base">{description}</p>
         </div>
     );
 };
