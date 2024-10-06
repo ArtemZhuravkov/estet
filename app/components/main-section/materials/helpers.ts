@@ -13,7 +13,7 @@ export const materialCards = [
   },
   {
     id: "material3",
-    img: "/assets/material_3.png",
+    img: "/assets/material_3.jpg",
     alt: "blond and brown hair materials",
     title: "Blond and brown"
   },
@@ -37,13 +37,13 @@ export const materialCards = [
   },
   {
     id: "material7",
-    img: "/assets/material_7.png",
+    img: "/assets/material_7.jpg",
     alt: "dark colors hair",
     title: "Dark hair"
   },
   {
     id: "material8",
-    img: "/assets/material_8.png",
+    img: "/assets/material_8.jpg",
     alt: "bunch of blond hair",
     title: "Bunch of blond hair"
   },
