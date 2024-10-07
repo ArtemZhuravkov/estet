@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 
 interface IModalProps {
     img: string;
@@ -7,6 +7,14 @@ interface IModalProps {
 }
 
 export const ImageModal: React.FC<IModalProps> = ({ img, alt, onClose }) => {
+
+    useEffect(() => {
+        document.body.style.overflow = 'hidden';
+    
+        return () => {
+          document.body.style.overflow = 'auto';
+        };
+      }, []);
 
     const handleBackgroundClick = (e: React.MouseEvent<HTMLDivElement>) => {
         e.stopPropagation();
