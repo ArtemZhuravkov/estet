@@ -16,7 +16,7 @@ export default function Contacts() {
                         <i className="fa-brands fa-telegram text-4xl"></i>
                     </a>
                     <a
-                        href="viber://chat?number=%2B380955340437"
+                        href="viber://chat?number=380955340437"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-purple-400 cursor-pointer mr-3"
