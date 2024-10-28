@@ -30,9 +30,9 @@ export default function ScrollToTopButton() {
         isVisible && (
             <button
                 onClick={scrollToTop}
-                className="fixed bottom-4 right-4 bg-gray-500 opacity-50 text-white px-4 py-2 rounded-full shadow-lg hover:opacity-100 transition duration-300"
+                className="fixed bottom-4 right-4 bg-gray-500 opacity-50 text-white px-4 py-2 pt-3 rounded-full shadow-lg hover:opacity-100 transition duration-300"
             >
-                ↑
+               <i className="fa-solid fa-up-long text-3xl"></i>
             </button>
         )
     );
