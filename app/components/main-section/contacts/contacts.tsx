@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Contacts() {
     return (
-        <section className='mb-10 md:mb-20 max-w-[1440px] w-full m-auto px-4'>
+        <section className='mb-10 md:mb-20 max-w-[1440px] w-full m-auto px-4' id="contacts_anchor">
             <h1 className='font-bold text-3xl text-center mb-8'>Контакти</h1>
             <div className='flex flex-col sm:flex-row sm:items-center mb-3 sm:mb-8'>
                 <h3 className='font-bold mb-3 sm:mb-0 text-left'>Ви можете зв'язатись з нами будь-яким зручним способом:</h3>
