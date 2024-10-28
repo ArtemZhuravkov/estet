@@ -34,7 +34,7 @@ export default function Contacts() {
                 </div>
             </div>
             <div className='flex flex-col md:flex-row gap-4'>
-                <div className='w-[500px]'>
+                <div className='w-full md:w-[30%]'>
                     <div className='mb-3'>
                         <h3 className='font-bold'>Телефон:</h3>
                         <a href='tel:+380955340437' className='font-bold text-lg'>+38 (095) 534 04 37</a>
