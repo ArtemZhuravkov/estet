@@ -16,6 +16,14 @@ export default function Contacts() {
                         <i className="fa-brands fa-telegram text-4xl"></i>
                     </a>
                     <a
+                        href="https://www.instagram.com/s.tet.hair"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-pink-500 cursor-pointer mr-3"
+                    >
+                        <i className="fab fa-instagram text-4xl"></i>
+                    </a>
+                    <a
                         href="viber://chat?number=+380955340437"
                         target="_blank"
                         rel="noopener noreferrer"

@@ -4,6 +4,7 @@ import Materials from './materials/materials'
 import PremiumMaterials from './premium-materials/premium-materials'
 import OurWorks from './our-works/our-works'
 import Contacts from './contacts/contacts'
+import ScrollToTopButton from '../scroll-button/scroll-button'
 
 export default function MainSection() {
     return (
@@ -14,6 +15,7 @@ export default function MainSection() {
                 <PremiumMaterials/>
                 <OurWorks/>
                 <Contacts/>
+                <ScrollToTopButton/>
             </div>
         </div>
     )
